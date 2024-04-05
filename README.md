@@ -31,15 +31,12 @@ Este é um sistema em Java desenvolvido para cadastrar alunos e personal trainer
 
 2. **Configuração do Projeto**:
    - Abra o projeto na sua IDE de desenvolvimento Java.
-   - Configure a conexão com o banco de dados db4o no arquivo `ConfiguracaoDB.java`, fornecendo as informações de caminho do arquivo de banco de dados db4o.
+
 
 3. **Execução**:
    - Compile e execute o arquivo principal para iniciar o sistema.
    - Siga as instruções fornecidas pelo sistema para cadastrar ou remover alunos e personal trainers.
 
-## Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para propor melhorias, correções de bugs ou novas funcionalidades através de pull requests.
 
 ## Autor
 
