@@ -1,8 +1,4 @@
-/**********************************
- * IFPB - Curso Superior de Tec. em Sist. para Internet
- * Persistencia de Objetos
- * Prof. Fausto Maranhão Ayres
- **********************************/
+
 
 package daodb4o;
 
@@ -71,7 +67,7 @@ public abstract class DAO<T> implements DAOInterface<T> {
 		}
 	}
 
-	//--------transação---------------
+	//--------transaï¿½ï¿½o---------------
 	public static void begin(){	
 	}		// tem que ser vazio
 

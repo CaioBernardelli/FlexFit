@@ -1,10 +1,6 @@
 package modelo;
 
-/**********************************
- * IFPB - SI
- * POB - Persistencia de Objetos
- * Prof. Fausto Ayres
- **********************************/
+
 
 public class Aluno {
 	private String nome;

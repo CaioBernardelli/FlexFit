@@ -1,9 +1,5 @@
 package regras_negocio;
-/**********************************
- * IFPB - SI
- * POB - Persistencia de Objetos
- * Prof. Fausto Ayres
- **********************************/
+
 
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;

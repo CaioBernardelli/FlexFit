@@ -1,8 +1,4 @@
-/**********************************
- * IFPB - SI
- * POB - Persistencia de Objetos
- * Prof. Fausto Ayres
- **********************************/
+
 package daodb4o;
 
 import java.util.List;

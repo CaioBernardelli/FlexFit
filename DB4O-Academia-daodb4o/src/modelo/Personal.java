@@ -1,9 +1,5 @@
 package modelo;
-/**********************************
- * IFPB - SI
- * POB - Persistencia de Objetos
- * Prof. Fausto Ayres
- **********************************/
+
 
 public class Personal extends Funcionario {
   	private String horario;
