@@ -123,6 +123,7 @@ public class Fachada {
 
 	public static Personal criarPersonal(String nome, String data, double salario, String horario) throws Exception {
 	    DAO.begin();
+	 
 	    try {
 	        LocalDate dt = LocalDate.parse(data, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
 	    } catch (DateTimeParseException e) {
@@ -144,7 +145,9 @@ public class Fachada {
 	    ps  = new Personal(nome, salario, horario);
 	    daopersonal.create(ps);
 	    DAO.commit();
+	    
 	    return ps;
+	   
 	}
 
 

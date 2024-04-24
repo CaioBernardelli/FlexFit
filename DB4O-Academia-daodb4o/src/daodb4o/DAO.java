@@ -11,7 +11,7 @@ import com.db4o.query.Query;
 
 
 public abstract class DAO<T> implements DAOInterface<T> {
-	protected static ObjectContainer manager;
+	protected static ObjectContainer manager = Util.conectarBanco();
 
 	public static void open(){	
 		manager = Util.conectarBanco();				//banco local

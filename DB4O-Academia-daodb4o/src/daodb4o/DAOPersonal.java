@@ -4,12 +4,15 @@ package daodb4o;
 
 import java.util.List;
 
+import com.db4o.ObjectContainer;
 import com.db4o.query.Query;
 
 import modelo.Funcionario;
 import modelo.Personal;
 
 public class DAOPersonal  extends DAO<Personal>{
+	private ObjectContainer manager;
+
 	//nome � usado como campo unico 
 	public Personal read (Object chave) {
 		String nome = (String) chave;	//casting para o tipo da chave
