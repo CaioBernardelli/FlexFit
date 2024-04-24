@@ -10,5 +10,6 @@
 			<attribute name="add-opens" value="java.base/java.time=ALL-UNNAMED:java.base/java.lang=ALL-UNNAMED:java.base/java.io=ALL-UNNAMED:java.base/java.security=ALL-UNNAMED:java.base/java.net=ALL-UNNAMED:java.base/java.util.concurrent.atomic=ALL-UNNAMED"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
